@@ -2,11 +2,24 @@ body {
     background-color: #2e2d4c;
     background-image: "/img/hex.png";
 }
+
+.cabecalho {
+    text-align: center;
+    color: white;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.logo img {
+    width: 180px;
+}
 .conteudo {
     width: 72%;
     max-width: 960px;
-    margin: auto;
+    margin: 120px auto;
     background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
     img{
     width: 300px;
