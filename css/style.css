@@ -5,16 +5,43 @@ body {
     background-image: "/img/hex.png";
 }
 
+.logotipo {
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 12px;
+    color: #2e2d4c;
+}
+
+.logomarca {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+    margin-top: -50px;
+    transform: translateX(50%) rotate(45deg);
+}
+
 .cabecalho {
     text-align: center;
     color: white;
     margin: auto;
     padding: 30px;
+    
+}
+
+.logo {
+    text-align: center;
+    margin-top: 60px;
 }
 
 .logo img {
     width: 128px;
-    margin-bottom: 20px;
+    margin: 20px;
+    
 }
 
 .background {
@@ -24,10 +51,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 .conteudo {
     width: 72%;
     max-width: 960px;
-    margin: 120px auto;
+    margin: 60px auto;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -95,6 +124,7 @@ body {
 
 .fonte--normal {
     font-size: 16pt;
+    line-height: 2.3rem;
 }
 
 .exp-topicos {
@@ -112,4 +142,37 @@ body {
 .habilidades label {
     width: 200px;
     display: inline-block;
+}
+
+.habilidades progress {
+    accent-color: #2e2d4c;
+    width: 100%;
+}
+
+.btn-inicio {
+    font-size: 3rem;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.greycolor {
+    color: rgb(150, 150, 150);
+}
+
+.greycolor:hover {
+    color: whitesmoke;
+}
+
+.footer {
+    background-color: #2e2d4c;
+    position: relative;
+    padding: 120px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.footer i {
+    padding: 6px;
 }
