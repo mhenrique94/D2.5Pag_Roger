@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+
 body {
-    
+    font-family: 'Lora', serif;
     background-image: "/img/hex.png";
 }
 
@@ -29,6 +31,7 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
+    line-height: 2.2rem;
 }
 
 .navigation {
@@ -79,11 +82,15 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     margin: 10px 10px 10px 0;
+    filter: grayscale(0.5);
+}
+
+.fotos img:hover {
+    filter: none;
 }
 
 .fonte--media {
     font-size: 1.7rem;
-    
 }
 
 .fonte--normal {
@@ -96,7 +103,13 @@ body {
 }
 
 .titulo {
+    font-family: 'Exo2', sans-serif;
     margin-top: 50px;
     font-size: 1.9rem;
     
+}
+
+.habilidades label {
+    width: 200px;
+    display: inline-block;
 }
