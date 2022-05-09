@@ -1,17 +1,26 @@
 body {
-    background-color: #2e2d4c;
+    
     background-image: "/img/hex.png";
 }
 
 .cabecalho {
     text-align: center;
     color: white;
-    margin: 100px auto;
+    margin: auto;
     padding: 30px;
 }
 
 .logo img {
-    width: 180px;
+    width: 128px;
+    margin-bottom: 20px;
+}
+
+.background {
+    background-color: #2e2d4c;
+    background-image: url(../img/hex.png);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .conteudo {
     width: 72%;
@@ -26,6 +35,8 @@ body {
     text-align: center;
     margin: 20px;
 }
+
+
 .navigation li{
     display: inline-block;
     margin-right: 30px;
@@ -53,7 +64,6 @@ body {
     width: 150px;
     float: left;
     margin-right: 20px;
-    padding: 20px;
 }
 
 .fotos {
@@ -71,6 +81,22 @@ body {
     margin: 10px 10px 10px 0;
 }
 
-.fonte--media p{
-    font-size: 18pt;
+.fonte--media {
+    font-size: 1.7rem;
+    
+}
+
+.fonte--normal {
+    font-size: 16pt;
+}
+
+.exp-topicos {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-size: 1.9rem;
+    
 }
