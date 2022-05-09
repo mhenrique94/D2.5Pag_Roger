@@ -26,10 +26,11 @@ body {
 }
 
 .cabecalho {
+    font-family: 'Exo2', sans-serif;
     text-align: center;
     color: white;
     margin: auto;
-    padding: 30px;
+    padding: 80px;
     
 }
 
@@ -93,7 +94,7 @@ body {
 }
 
 .img-perfil{
-    width: 150px;
+    width: 170px;
     float: left;
     margin-right: 20px;
 }
