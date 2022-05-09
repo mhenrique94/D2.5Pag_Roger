@@ -119,7 +119,7 @@ body {
 }
 
 .fonte--media {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .fonte--normal {
@@ -127,9 +127,16 @@ body {
     line-height: 2.3rem;
 }
 
+.fonte--espacada {
+    line-height: 2.5rem;
+    font-size: 16pt;
+}
+
 .exp-topicos {
     list-style: none;
     padding-left: 20px;
+    letter-spacing: 0.1px;
+    
 }
 
 .titulo {
