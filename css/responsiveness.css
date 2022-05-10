@@ -1,0 +1,79 @@
+@media (max-width: 720px) {
+    
+.logo img {
+    width: 76px;
+    
+}
+
+.cabecalho {
+    padding: 40px;
+}
+.cabecalho h1 {
+    font-size: 16pt;
+}
+
+.titulo {
+    font-size: 14pt;
+
+}
+.subtitulo {
+    font-size: 12pt;
+}
+
+.conteudo {
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+
+}
+
+.navigation {
+    margin: auto;
+
+}
+
+.navigation li {
+    width: 110px;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.img-perfil{
+    width: 120px;
+    margin: 10px 10px auto auto;
+}
+
+.fonte--media {
+    font-size: 1.2rem;
+}
+
+.fonte--media p {
+    text-align: justify;
+}
+.fonte--normal {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.fonte--espacada {
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+}
+
+.exp-topicos li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.greycolor {
+    color: #2e2d4c;
+    background-color: white;
+    border-radius: 30px;
+}
+}

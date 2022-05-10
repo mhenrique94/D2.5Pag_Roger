@@ -129,7 +129,7 @@ body {
 }
 
 .fonte--espacada {
-    line-height: 2.5rem;
+    line-height: 1.8rem;
     font-size: 16pt;
 }
 
@@ -163,14 +163,17 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    text-align: center;
 }
 
 .greycolor {
-    color: rgb(150, 150, 150);
+    color: #2e2d4c;
+    background-color: white;
+    border-radius: 26px;
 }
 
 .greycolor:hover {
-    color: whitesmoke;
+    background-color: antiquewhite;
 }
 
 .footer {
@@ -179,8 +182,11 @@ body {
     padding: 120px;
     color: whitesmoke;
     text-align: center;
+    
 }
 
 .footer i {
     padding: 6px;
 }
+
+
